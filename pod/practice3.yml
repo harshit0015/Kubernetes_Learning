@@ -1,0 +1,15 @@
+# sample  manifest file for pod 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: practice-3-pod
+  labels:
+    app: web
+
+spec:
+  containers:
+    - name: compassionate-moore
+      image: harshit0015/node-hello
+    
+
+
